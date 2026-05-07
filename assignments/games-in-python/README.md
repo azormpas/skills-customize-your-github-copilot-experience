@@ -1,19 +1,49 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Hangman Game
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a Hangman game using Python strings, loops, conditionals, and user input. This assignment helps you practice game logic and control flow while managing game state.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Game Setup
 
-## ✅ Must Have's
+#### Description
+Create a list of secret words and randomly choose one for each game round.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+- Use a predefined list of words in the code.
+- Select a random word for the player to guess.
+- Initialize a display version of the word using blanks (`_`) for each hidden letter.
+
+### 🛠️ Guess Handling
+
+#### Description
+Allow the player to guess letters and update the game display accordingly.
+
+#### Requirements
+Completed program should:
+- Accept letter guesses from the player.
+- Reveal matched letters in their correct positions.
+- Keep a list of letters already guessed and ignore repeated guesses.
+- Show the current word progress in `_ _ _` format after each guess.
+
+### 🛠️ Win/Lose Logic
+
+#### Description
+Track incorrect guesses and end the game when the player wins or runs out of attempts.
+
+#### Requirements
+Completed program should:
+- Track the number of incorrect guesses remaining.
+- End the game with a win message when the player guesses the entire word.
+- End the game with a lose message when the player uses all attempts.
+- Display the correct word when the game ends.
+
+## 💡 Skills Practiced
+- String manipulation
+- Loops and conditionals
+- User input handling
+- Basic game state management
