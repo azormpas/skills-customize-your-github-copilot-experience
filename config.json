@@ -71,7 +71,18 @@
           "file": "starter-code.py",
           "type": "python"
         }
+    },
+    {
+      "id": "web-development-basics",
+      "title": "Web Development Basics",
+      "description": "Building a simple interactive website using HTML, CSS, and JavaScript.",
+      "path": "assignments/web-development-basics",
+      "dueDate": "2026-05-14",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "index.html",
+          "type": "html"
+        }
       ]
     }
-  ]
-}
